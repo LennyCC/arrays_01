@@ -1,9 +1,10 @@
-/**
+ /**
  * indexOF
  */
 
  /**
-  * LA función indexOf es muy usada en JavaScript; y en otros lenguajes de programación hay funciones similares. Sirve para indicar, en que posición se encuentra un elemento en un array
+  * LA función indexOf es muy usada en JavaScript; y en otros lenguajes de programación 
+  * hay funciones similares. Sirve para indicar, en que posición se encuentra un elemento en un array
   */
 
  let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
@@ -14,7 +15,7 @@
   * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". ¿Por qué crees que sucede esto?
   */
 
-  let pezPosicion2 = muchos_peces.indexOf("estrella")
+  let pezPosicion2 = muchos_peces.indexOf("Estrella")
   console.log("Estrella está en la posición: " + pezPosicion2)
 
   
